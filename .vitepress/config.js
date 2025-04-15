@@ -184,7 +184,7 @@ export default {
         { text: "<code>168 | OP_SHA256</code>", link: "/opcodes/OP_SHA256.md" },
         { text: "<code>169 | OP_HASH160</code>", link: "/opcodes/OP_HASH160.md" },
         { text: "<code>170 | OP_HASH256</code>", link: "/opcodes/OP_HASH256.md" },
-        { text: "<code>171 | 🚧 OP_CODESEPARATOR</code>", link: "/opcodes/OP_CODESEPARATOR.md" },
+        { text: "<code>171 | OP_CODESEPARATOR</code>", link: "/opcodes/OP_CODESEPARATOR.md" },
         { text: "<code>172 | 🚧 OP_CHECKSIG</code>", link: "/opcodes/OP_CHECKSIG.md" },
         { text: "<code>173 | 🚧 OP_CHECKSIGVERIFY</code>", link: "/opcodes/OP_CHECKSIGVERIFY.md" },
         { text: "<code>174 | 🚧 OP_CHECKMULTISIG</code>", link: "/opcodes/OP_CHECKMULTISIG.md" },
