@@ -268,7 +268,7 @@ export default {
         { text: "<code>252 | OP_RETURN_252</code>", link: "/opcodes/OP_RETURN_252.md" },
         { text: "<code>253 | OP_RETURN_253</code>", link: "/opcodes/OP_RETURN_253.md" },
         { text: "<code>254 | OP_RETURN_254</code>", link: "/opcodes/OP_RETURN_254.md" },
-        { text: "<code>255 | 🚧 OP_INVALIDOPCODE</code>", link: "/opcodes/OP_INVALIDOPCODE.md" },
+        { text: "<code>255 | OP_INVALIDOPCODE</code>", link: "/opcodes/OP_INVALIDOPCODE.md" },
       ],
       
       "/script/": [

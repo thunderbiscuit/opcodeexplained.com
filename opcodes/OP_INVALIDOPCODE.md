@@ -1,5 +1,9 @@
-# Work In Progress
+# OP_INVALIDOPCODE
 
-:::warning
-This page has not yet been written. If you have experience with bitcoin Script and would like to contribute, please do! You can open a PR [on the repository for this website](https://github.com/thunderbiscuit/opcode-explained).
+:::info
+**Opcode number:** 255  
+**Byte representation:** `0xff`  
+**Short description:** Fail the script immediately.
 :::
+
+`OP_INVALIDOPCODE` fails the script immediately, but it must be executed (for example it does not render a script invalid if it is in a branch of an if/else statement that doesn't get executed).
