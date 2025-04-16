@@ -199,7 +199,7 @@ export default {
         { text: "<code>183 | OP_NOP8</code>", link: "/opcodes/OP_NOP8.md" },
         { text: "<code>184 | OP_NOP9</code>", link: "/opcodes/OP_NOP9.md" },
         { text: "<code>185 | OP_NOP10</code>", link: "/opcodes/OP_NOP10.md" },
-        { text: "<code>186 | 🚧 OP_CHECKSIGADD</code>", link: "/opcodes/OP_CHECKSIGADD.md" },
+        { text: "<code>186 | OP_CHECKSIGADD</code>", link: "/opcodes/OP_CHECKSIGADD.md" },
         { text: "<code>187 | OP_RETURN_187</code>", link: "/opcodes/OP_RETURN_187.md" },
         { text: "<code>188 | OP_RETURN_188</code>", link: "/opcodes/OP_RETURN_188.md" },
         { text: "<code>189 | OP_RETURN_189</code>", link: "/opcodes/OP_RETURN_189.md" },
