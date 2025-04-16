@@ -188,7 +188,7 @@ export default {
         { text: "<code>172 | OP_CHECKSIG</code>", link: "/opcodes/OP_CHECKSIG.md" },
         { text: "<code>173 | OP_CHECKSIGVERIFY</code>", link: "/opcodes/OP_CHECKSIGVERIFY.md" },
         { text: "<code>174 | OP_CHECKMULTISIG</code>", link: "/opcodes/OP_CHECKMULTISIG.md" },
-        { text: "<code>175 | 🚧 OP_CHECKMULTISIGVERIFY</code>", link: "/opcodes/OP_CHECKMULTISIGVERIFY.md" },
+        { text: "<code>175 | OP_CHECKMULTISIGVERIFY</code>", link: "/opcodes/OP_CHECKMULTISIGVERIFY.md" },
         { text: "<code>176 | OP_NOP1</code>", link: "/opcodes/OP_NOP1.md" },
         { text: "<code>177 | 🚧 OP_CLTV</code>", link: "/opcodes/OP_CLTV.md" },
         { text: "<code>178 | 🚧 OP_CSV</code>", link: "/opcodes/OP_CSV.md" },
