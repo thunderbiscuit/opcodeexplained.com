@@ -190,7 +190,7 @@ export default {
         { text: "<code>174 | OP_CHECKMULTISIG</code>", link: "/opcodes/OP_CHECKMULTISIG.md" },
         { text: "<code>175 | OP_CHECKMULTISIGVERIFY</code>", link: "/opcodes/OP_CHECKMULTISIGVERIFY.md" },
         { text: "<code>176 | OP_NOP1</code>", link: "/opcodes/OP_NOP1.md" },
-        { text: "<code>177 | 🚧 OP_CLTV</code>", link: "/opcodes/OP_CLTV.md" },
+        { text: "<code>177 | OP_CHECKLOCKTIMEVERIFY</code>", link: "/opcodes/OP_CHECKLOCKTIMEVERIFY.md" },
         { text: "<code>178 | 🚧 OP_CSV</code>", link: "/opcodes/OP_CSV.md" },
         { text: "<code>179 | OP_NOP4</code>", link: "/opcodes/OP_NOP4.md" },
         { text: "<code>180 | OP_NOP5</code>", link: "/opcodes/OP_NOP5.md" },
