@@ -3,7 +3,7 @@
 :::info
 **Opcode number:** 177  
 **Byte representation:** `0xb1`  
-**Short description:** Prevent a transaction output from being spent until a specified locktime.
+**Short description:** Prevent a transaction input from being spent until a specified absolute time or block height.
 :::
 
 `OP_CHECKLOCKTIMEVERIFY` (`CLTV`) allows a script to require that the current transaction's locktime (nLockTime) be greater than or equal to a specified value on the stack. This enables time-based spending conditions, such as "can't be spent until block 700000" or "not before a certain UNIX timestamp."
