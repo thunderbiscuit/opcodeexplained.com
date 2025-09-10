@@ -12,8 +12,7 @@
 
 ## Notes
 - [`OP_RETURN`](./OP_RETURN.md) is commonly followed by a pushdata operation that determines the length of the data to be embedded, and then the data itself.
-- The maximum size of the data push is 80 bytes.
-- This means that `OP_RETURN` can be at most 83 bytes: 1 byte for the opcode, 1-2 bytes for the data push, and 80 bytes of data.
+- The maximum size of the data push is limited to the block weight limit in case the transaction weight limit standarness rule of 400000 WU is bypassed.
 - [`OP_RETURN`](./OP_RETURN.md) outputs are used for various purposes, from proving the existence of a particular piece of data at a certain point in time to more complex protocols built on top of bitcoin.
 - Historically, there were debates around the use of [`OP_RETURN`](./OP_RETURN.md) because embedding data into the bitcoin blockchain adds to its size without directly supporting the transfer of bitcoin.
 
