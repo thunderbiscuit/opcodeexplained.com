@@ -2,7 +2,7 @@
 
 :::info
 **Opcode number:** 161  
-**Byte representation:** 0xa1  
+**Byte representation:** `0xa1`  
 **Short description:** Pop the top two items; push 1 if the second is less than or equal to the top, 0 otherwise.  
 :::
 
