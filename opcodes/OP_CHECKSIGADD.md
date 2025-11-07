@@ -36,7 +36,7 @@ This opcode was designed to simplify and optimize multisig scripts in Taproot.
 Valid signature adds 1 to the counter.
 
 ```shell
-# ASM Script
+# ASM script
 OP_0 <pubkey> <valid_sig> OP_CHECKSIGADD
 
 # After
@@ -49,7 +49,7 @@ OP_0 <pubkey> <valid_sig> OP_CHECKSIGADD
 Invalid signature keeps counter the same.
 
 ```shell
-# ASM Script
+# ASM script
 OP_2 <pubkey> <invalid_sig> OP_CHECKSIGADD
 
 # After
@@ -64,6 +64,6 @@ Simple 2-of-3 Taproot multisig logic:
 - Final value must equal 2 (at least two valid signatures)
 
 ```shell
-# ASM Script
+# ASM script
 OP_0 <pk1> <sig1> OP_CHECKSIGADD <pk2> <sig2> OP_CHECKSIGADD <pk3> <sig3> OP_CHECKSIGADD OP_2 OP_EQUAL
 ```
