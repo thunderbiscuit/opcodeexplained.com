@@ -277,6 +277,36 @@ export default {
         { text: "ASM Representation", link: "/script/asm.md" },
         { text: "Push Operators", link: "/script/push.md" },
         { text: "Numbers in Script", link: "/script/numbers.md" },
+        { text: "Standard Payment Scripts", collapsed: false, items: [
+          {
+            text: "P2PK",
+            link: "/script/standard-payment-scripts/P2PK.md"
+          },
+          {
+            text: "P2PKH",
+            link: "/script/standard-payment-scripts/P2PKH.md"
+          },
+          {
+            text: "P2SH",
+            link: "/script/standard-payment-scripts/P2SH.md"
+          },
+          {
+            text: "P2SH-P2WPKH",
+            link: "/script/standard-payment-scripts/P2SH-P2WPKH.md"
+          },
+          {
+            text: "P2WPKH",
+            link: "/script/standard-payment-scripts/P2WPKH.md"
+          },
+          {
+            text: "P2WSH",
+            link: "/script/standard-payment-scripts/P2WSH.md"
+          },
+          {
+            text: "P2TR",
+            link: "/script/standard-payment-scripts/P2TR.md"
+          }
+        ] }
       ]
     },
     
